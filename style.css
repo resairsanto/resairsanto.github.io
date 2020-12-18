@@ -1,0 +1,143 @@
+#content {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+.card {
+    display: inline-block;
+    width: 260px;
+    cursor: pointer;
+    margin-top: 120px;
+    background-color: teal;
+    border-radius: 10px;
+}
+
+.card img {
+    height: 220px;
+}
+
+.cardangka {
+    display: inline-block;
+    width: 260px;
+    cursor: pointer;
+    margin-top: 120px;
+    border-radius: 10px;
+}
+
+.cardangka img {
+    height: 220px;
+}
+
+
+.gambar:hover {
+    width: 240px;
+}
+
+header {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 30px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    background-color: #654062;
+    color: white;
+}
+
+footer {
+    height: 35px;
+    font-size: 15px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+
+#idxbody {
+    background-image: url("./img/idxbg.png");
+    background-size: 100%;
+}
+
+#idxcontent {
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.idxcard {
+    display: inline-block;
+    width: 220px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.idxcard img {
+    height: 200px;
+    cursor: pointer;
+}
+
+.idxcard img:hover {
+    width: 205px;
+}
+
+#idxh1 {
+    font-size: 50px;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.back {
+    height: 50px;
+    margin-top: 110px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.back:hover {
+    height: 55px;
+}
+
+.quizgambar {
+    height: 260px;
+    cursor: pointer;
+}
+
+.quizgambar:hover {
+    width: 270px;
+}
+
+#btnquiz {
+    height: 60px;
+    width: 200px;
+    font-size: 25px;
+    color: white;
+    background-color: tomato;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+#btnquiz:hover {
+    background-color: gray;
+}
+
+.quizcard {
+    display: inline-block;
+    width: 100%;
+    margin-top: 60px;
+    text-align: center;
+}
